@@ -10,9 +10,9 @@ function App() {
     { id: 2, name: 'Jane Smith', grade: 92 },
   ]);
  
-  // ✅ Fixed addStudent: do NOT mutate array directly
+  
   const addStudent = (newStudent) => {
-    setStudents([...students, newStudent]); // creates a new array
+    setStudents([...students, newStudent]); 
     alert(`Student ${newStudent.name} added!`);
   };
  
