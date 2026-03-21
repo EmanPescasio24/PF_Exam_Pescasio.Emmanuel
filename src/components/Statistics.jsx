@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-/**
- * BUG ALERT: useEffect Dependency
- * This component should update the average whenever the 'students' list changes.
- * Task: Add 'students' to the dependency array.
- */
+
 function Statistics({ students }) {
   const [average, setAverage] = useState(0);
 
@@ -18,7 +14,7 @@ function Statistics({ students }) {
     } else {
       setAverage(0);
     }
-  }, [students]); // Missing 'students' dependency! HINT: This array should contain variables that trigger the effect.
+  }, [students]); 
 
   return (
     <div className="card mb-4">
