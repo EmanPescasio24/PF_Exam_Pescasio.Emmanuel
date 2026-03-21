@@ -22,20 +22,7 @@ function AddStudentForm({ onAdd }) {
   setName('');
   setGrade('');
   
-    /**
-     * TODO: COMPLETE THE LOGIC
-     * 1. Create a student object with:
-     *    - id (use Date.now() for simplicity)
-     *    - name
-     *    - grade (converted to number)
-     * 2. Call the 'onAdd' function passed via props.
-     * 3. Clear the input fields.
-     * 
-     * HINT: Use setName('') and setGrade('') to clear the text boxes after you've added the student!
-     */
-
-    // Student Logic goes here...
-    //console.log("Add button clicked, but logic is missing!");
+    
   };
 
   return (
